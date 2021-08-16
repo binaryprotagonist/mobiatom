@@ -1,0 +1,22 @@
+assign inventory 
+	customer code
+	item code
+	item uom name
+
+
+competitor info
+	item name
+	salemsman code
+
+planogram 
+	customer code
+	distribution name
+
+distribution
+	customer code
+
+complaint feedback
+	item code
+	customer code
+	salesman code
+	route code

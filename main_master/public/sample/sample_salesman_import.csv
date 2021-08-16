@@ -1,0 +1,3 @@
+First Name,Last Name,Email,Password,Mobile,Country,Status,Route,Merchandiser Type,Merchandiser Role,Merchandiser Code,Merchandiser Supervisor,Order From,Order To,Invoice From,Invoice To,Collection From,Collection To,Return From,Return To,Unload From,Unload To
+fname,lname,Merchandiser1@gmail.com,123456,6532542185,India,Yes/No,Blond,Merchandise,Merchandiser,SALS00001,test,101010,101011,123,1234,100,150,10,11,11,10
+fname 2,lname 2,Merchandiser2@gmail.com,123456,6532542186,India,Yes/No,Blond,Merchandise,Merchandiser,SALS00002,test1,101011,101010,123,1234,100,150,10,11,11,10

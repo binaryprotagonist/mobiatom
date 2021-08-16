@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Model;
+
+use App\Traits\Organisationid;
+use Illuminate\Database\Eloquent\Model;
+
+class Notifications extends Model
+{
+
+    use Organisationid;
+
+    protected $fillable = [
+        'uuid', 'organisation_id', 'user_id', 'url', 'type', 'message', 'status'
+    ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id', 'id');
+    }
+}
